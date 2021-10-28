@@ -2355,7 +2355,7 @@ footer .icon.icon_twitter:before {
 }
 
 .fake-block-footer {
-    height: 761px;
+    /*height: 761px;*/   /*  761px    */
     width: 1px;
     position: relative;
     z-index: 3;
@@ -2807,7 +2807,7 @@ i,
     }
 }
 
-/*
+
 html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -2835,7 +2835,7 @@ html.lock-screen {
 .lock-screen {
     overflow: hidden
 }
-*/
+
 .wrapper {
     background-color: #16181c;
     position: relative;
@@ -2856,27 +2856,39 @@ html.lock-screen {
     background-color: whitesmoke
 }
 .fake-block {
-    min-height: 0;
-    width: 1px
+    min-height: 100vh;   /*     */
+    width: 1px;
 }
+
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .fake-block {
-        min-height: 0
+        min-height: 0;  /*    */
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     .fake-block {
-        height: 0 !important
+        height: 0 !important;
     }
 }
 @media only screen and (max-width: 767px) {
     .fake-block {
-        height: 0 !important
+        height: 0 !important;
     }
 }
+
+
+@media only screen and (min-width:300px) and (max-width:767px){
+    .fake-block {
+        min-height: 0;
+        height: 0 !important;
+    }
+}
+
+
 .company-page .slogan {
     max-width: 800px;
-    pointer-events: auto
+    pointer-events: auto;
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     .company-page .slogan {
@@ -2949,7 +2961,7 @@ html.lock-screen {
     }
 }
 .slogan {
-    min-height: 400px;
+    min-height: 400px;   /*    */
     display: table;
     max-width: 918px;
     margin: 0 auto;
@@ -3081,13 +3093,13 @@ html.lock-screen {
     }
 }
 .bg {
-    position: absolute;
+    /*position: absolute;*/
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
     overflow: hidden;
-    margin: 8% 5% 5% 5%;
+    /*margin: 8% 5% 5% 5%;*/
     z-index: 6;
     /*
     background-image: url("https://web.archive.org/web/20170209145956im_/https://yalantis.com/assets/v2/general/bg-index-intro-92b4c7f74791ac3a1483e0b8956615d7.png");
@@ -7788,12 +7800,12 @@ ul.share-buttons li .icon:before {
     background-image: url("../img/prospecta-negro.svg")
 }
 
-/*
+
 html,
 body {
     overflow-x: hidden
 }
-*/
+
 
 
 
