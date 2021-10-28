@@ -1,0 +1,24 @@
+{
+  "name": "prospectastudio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "purgecss --css sass/custom.css --content index.html sesionesinformativas.html --output sass/reducido.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlceca05/prospectastudio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlceca05/prospectastudio/issues"
+  },
+  "homepage": "https://github.com/carlceca05/prospectastudio#readme"
+}
