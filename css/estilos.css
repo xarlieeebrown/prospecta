@@ -2316,7 +2316,7 @@ footer .footer-bottom p {
     }
 }
 
-/*
+
 
 footer i,
 footer [class^="icon_"],
@@ -2353,13 +2353,14 @@ footer .icon.icon_github:before {
 footer .icon.icon_twitter:before {
     content: "\e90f"
 }
+
 .fake-block-footer {
     height: 761px;
     width: 1px;
     position: relative;
     z-index: 3;
 }
-*/
+
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .fake-block-footer {
