@@ -26613,6 +26613,8 @@ if (!self.__WB_pmw) {
                     new ScrollMagic.Scene({ triggerElement: ".works-list__item.azure", offset: a }).setTween(e).addTo(t),
                     new ScrollMagic.Scene({ triggerElement: ".works-list__item.black", triggerHook: "onCenter", duration: o }).setClassToggle("body", "active_black-scene").addTo(t),
                     new ScrollMagic.Scene({ triggerElement: ".works-list__item.black", offset: a }).setTween(n).addTo(t),
+                    new ScrollMagic.Scene({ triggerElement: ".works-list__item.red", triggerHook: "onCenter", duration: o }).setClassToggle("body", "active_red-scene").addTo(t),
+                new ScrollMagic.Scene({ triggerElement: ".works-list__item.red", offset: a }).setTween(n).addTo(t),
                     new ScrollMagic.Scene({ triggerElement: ".indicators", offset: h }).setClassToggle("header", "active_black-header-footer").addTo(t),
                     new ScrollMagic.Scene({ triggerElement: ".info", duration: l }).setClassToggle("body", "active_light-black-scene").addTo(t);
             }
