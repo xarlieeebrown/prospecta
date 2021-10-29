@@ -2396,7 +2396,7 @@ footer .icon.icon_twitter:before {
 }
 
 .fake-block-footer {
-    /*height: 761px;*/   /*  761px    */
+    height: 0px;   /*  761px    */
     width: 1px;
     position: relative;
     z-index: 3;
@@ -3180,15 +3180,15 @@ html.lock-screen {
 .works-list__item__w .img-block,
 .works-list__item__w .text__w {
     flex-basis: 50%;
-    padding: 140px 0
+    padding: 140px 0;
 }
 .works-list__item.purple .text__w {
-    order: -1
+    order: -1;
 }
 .works-list__item__w .text__w .text {
     padding: 0 20px;
     text-align: left;
-    margin: 0 auto
+    margin: 0 auto;
 }
 .works-list__item .text {
     max-width: 470px

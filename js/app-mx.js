@@ -26598,9 +26598,11 @@ if (!self.__WB_pmw) {
                 var e = ([$(".wrapper"), $("header")], TweenLite.from(".azure .text__w", ut, { y: dt, opacity: 0, ease: Power1.easeOut })),
                     i = TweenLite.from(".purple .text__w", ut, { y: dt, opacity: 0, ease: Power1.easeOut }),
                     n = TweenLite.from(".black .text__w", ut, { y: dt, opacity: 0, ease: Power1.easeOut }),
+                    p = TweenLite.from(".red .text__w", ut, { y: dt, opacity: 0, ease: Power1.easeOut }),
                     s = $(".purple").outerHeight(),
                     r = $(".azure").outerHeight(),
                     o = $(".black").outerHeight(),
+                    v = $(".black").outerHeight(),
                     a = window.innerHeight / 3,
                     l = $(".talents").innerHeight() + $(".info").innerHeight() + a,
                     h = $(".indicators").innerHeight(),
@@ -26614,7 +26616,7 @@ if (!self.__WB_pmw) {
                 new ScrollMagic.Scene({ triggerElement: ".works-list__item.black", triggerHook: "onCenter", duration: o }).setClassToggle("body", "active_black-scene").addTo(t),
                 new ScrollMagic.Scene({ triggerElement: ".works-list__item.black", offset: a }).setTween(n).addTo(t),
                 new ScrollMagic.Scene({ triggerElement: ".works-list__item.red", triggerHook: "onCenter", duration: o }).setClassToggle("body", "active_red-scene").addTo(t),
-                new ScrollMagic.Scene({ triggerElement: ".works-list__item.red", offset: a }).setTween(n).addTo(t),
+                new ScrollMagic.Scene({ triggerElement: ".works-list__item.red", offset: a }).setTween(p).addTo(t),
 
                 new ScrollMagic.Scene({ triggerElement: ".indicators", offset: h }).setClassToggle("header", "active_black-header-footer").addTo(t),
                 new ScrollMagic.Scene({ triggerElement: ".info", duration: l }).setClassToggle("body", "active_light-black-scene").addTo(t);
