@@ -23,10 +23,34 @@ body{
     line-height: 0.8;
     /*color: var(--color);*/
     transform: translate(-30%, -70%) translate(calc(var(--index)* (var(--x,20)* 1% )), calc(var(--index)* (var(--y,20)*1% )));
-    -webkit-text-stroke: 0.25vmin var(--stroke);
+    /*-webkit-text-stroke: 0.80vmin var(--stroke);*/
+    
     /* -webkit-animation: party 1s calc(var(--index)* -0.1s ) infinite linear;  */
     /* animation: party 1s calc(var(--index)* 0.1s ) infinite linear;*/
 }
+.trazo{
+    -webkit-text-stroke: 0.60vmin var(--stroke);
+
+}
+.trazo1{
+    -webkit-text-stroke: 0.40vmin var(--stroke);
+}
+.trazo2{
+    -webkit-text-stroke: 0.50vmin var(--stroke);
+}
+.trazo3{
+    -webkit-text-stroke: 0.50vmin var(--stroke);
+}
+.trazo4{
+    -webkit-text-stroke: 0.50vmin var(--stroke);
+}
+.trazo5{
+    -webkit-text-stroke: 0.50vmin var(--stroke);
+}
+.dos{
+    filter: blur(0.6px);
+}
+
 .texto-blanco{
     color: #fff;
 }

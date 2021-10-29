@@ -5,18 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
-
-
+    <link rel="stylesheet" href="css/color.css">
     
        
 </head>
 <body>
-    
-  <h2 class="titulo">Traé a HomePets <br> a tu <span class="typed"></span></h2>
 
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-     <script src="js/main.js"></script>
+  <!--
+  <div >
+    <div class="neon-wrapper">
+      <span class="txt">P</span>
+      <span class="gradient"></span>
+      <span class="dodge"></span>
+    </div>
+</div>  
+-->
 
+    <h1 class="letra" style="--index: 06;">P</h1>
+    <h1 class="letra " style="--index: 05;">P</h1>
+    <h1 class="letra " style="--index: 04;">P</h1>
+    <h1 class="letra " style="--index: 03;">P</h1>
+    <h1 class="letra " style="--index: 02;">P</h1>
+    <h1 class="letra " style="--index: 01;">P</h1>
+  
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"  async></script>
+
+
+
+<script type="text/javascript">
+  document.addEventListener('pointermove',({x,y}) =>
+    {
+      gsap.set('.letra', {
+        '--x': gsap.utils.mapRange(0, window.innerWidth, -10, 10, x),
+        '--y': gsap.utils.mapRange(0, window.innerHeight, -10, 10, y),
+      })
+    }
+  );
+</script>
 </body>
 </html>
