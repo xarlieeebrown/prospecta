@@ -35,18 +35,35 @@ body{
 .trazo1{
     -webkit-text-stroke: 0.40vmin var(--stroke);
 }
-.trazo2{
-    -webkit-text-stroke: 0.50vmin var(--stroke);
+
+.neon {
+    text-shadow: 
+    /*
+    .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
+  */
+    /*
+    .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
+    .1vw 0vw  .1vw #f25757, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
+    .1vw 0vw   2vw #f25757, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #f25757, 
+  */
+   /* .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #e50b0b, */
+    /*.1vw 0vw   5vw #e50b0b, .2vw 0vw  20vw #e50b0b, .4vw 0vw  10vw #e50b0b,*/
+    .1vw 0vw  .5vw #fff, .1vw 0vw  .5vw #fff, .1vw 0vw  .5vw #fff;
+  }
+/*
+.neon::before{
+    
+    content: 'P';
+    color: rgba(28, 30, 36, 1) ;
+    position: absolute;
+    mix-blend-mode: difference;
+    filter: blur(3px);
 }
-.trazo3{
-    -webkit-text-stroke: 0.50vmin var(--stroke);
-}
-.trazo4{
-    -webkit-text-stroke: 0.50vmin var(--stroke);
-}
-.trazo5{
-    -webkit-text-stroke: 0.50vmin var(--stroke);
-}
+*/
+
+
+
+
 .dos{
     filter: blur(0.6px);
 }
