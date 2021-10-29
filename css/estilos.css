@@ -3002,7 +3002,7 @@ html.lock-screen {
     }
 }
 .slogan {
-    min-height: 400px;   /*    */
+    min-height: 600px;   /*    */
     display: table;
     max-width: 918px;
     margin: 0 auto;
