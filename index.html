@@ -565,8 +565,8 @@
       document.addEventListener('pointermove',({x,y}) =>
         {
           gsap.set('.letra', {
-            '--x': gsap.utils.mapRange(0, window.innerWidth, -10, 10, x),
-            '--y': gsap.utils.mapRange(0, window.innerHeight, -10, 10, y),
+            '--x': gsap.utils.mapRange(0, window.innerWidth, -2, 2, x),
+            '--y': gsap.utils.mapRange(0, window.innerHeight, -2, 2, y),
           })
         }
       );
